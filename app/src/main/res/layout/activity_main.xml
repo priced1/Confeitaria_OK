@@ -70,7 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtLogin" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/tvEsqueciSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,9 +81,9 @@
         android:text="Esqueci Minha Senha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" /> -->
 
-    <TextView
+    <!--<TextView
         android:id="@+id/tvNovoCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
         android:onClick="novoCadastro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEsqueciSenha" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEsqueciSenha" /> -->
 
     <ImageView
         android:id="@+id/imageView2"

@@ -43,8 +43,8 @@ public class ItensDoPedido extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_itens_do_pedido);
 
-        btnFecharPedido = findViewById(R.id.btnFecharPedido);
-        tvTotal = findViewById(R.id.tvTotal);
+        //btnFecharPedido = findViewById(R.id.btnFecharPedido);
+       // tvTotal = findViewById(R.id.tvTotal);
         setTitle("Selecione a Quantidade");
 
 

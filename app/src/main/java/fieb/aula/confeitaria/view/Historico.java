@@ -36,7 +36,7 @@ public class Historico extends AppCompatActivity {
 
         setTitle("Histórico");
 
-        lvHistoricoCompra = findViewById(R.id.lvHistoricoCompra);
+       // lvHistoricoCompra = findViewById(R.id.lvHistoricoCompra);
         lvListaPedidos = findViewById(R.id.lvListaPedidos);
 
         tvDetalhesIdPedido=findViewById(R.id.tvDetalhesIdPedido);

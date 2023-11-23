@@ -29,13 +29,13 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Cursos"
+        android:text="Descrição"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPrincipal" />
 
-   <!-- <Button
+    <Button
         android:id="@+id/btnPromocoes"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -46,29 +46,29 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPedidos" />-->
+        app:layout_constraintTop_toBottomOf="@+id/btnPedidos" />
 
-    <!--  <Button
+     <Button
          android:id="@+id/btnHistorico"
          android:layout_width="0dp"
          android:layout_height="wrap_content"
          android:layout_marginStart="32dp"
          android:layout_marginTop="32dp"
          android:layout_marginEnd="32dp"
-         android:text="Histórico"
+         android:text="HTML"
          android:textSize="24sp"
          app:layout_constraintEnd_toEndOf="parent"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/btnPromocoes" />-->
+         app:layout_constraintTop_toBottomOf="@+id/btnPromocoes" />
 
-    <!-- <Button
+     <!--<Button
         android:id="@+id/btnMeusDados"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Meus Dados"
+        android:text="REDES DE COMPUTADORES"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

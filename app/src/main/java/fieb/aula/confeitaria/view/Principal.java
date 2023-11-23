@@ -27,10 +27,10 @@ public class Principal extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder quemSomos = new AlertDialog.Builder(Principal.this);
                 quemSomos.setTitle("Somos a Magic_TI");
-                quemSomos.setMessage("fazendo você ser um profissional melhor a cada," +
-                        " todos os nossos cursos foram feito por grandes profissionais " +
-                        "\ncriado em 2023, nos da MAGIC_TI temos a intenção de formar profissionais. " +
-                        "\nAproveite nossa plataforma gratuita,\n esperamos vocês aqui!!!");
+                quemSomos.setMessage("fazendo você ser um profissional melhor a cada dia," +
+                        " todos os nossos cursos foram feito por grandes profissionais. " +
+                        "\nCriado em 2023, nos da MAGIC_TI temos a intenção de formar profissionais. " +
+                        "\nAproveite nossa plataforma gratuita,\n aproveite nossa plataforma!!!");
 
                 quemSomos.setCancelable(false);
 
@@ -47,9 +47,9 @@ public class Principal extends AppCompatActivity {
 
         btnHistorio.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+           public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Historico.class);
-                startActivity(intent);
+               startActivity(intent);
             }
         });
 
@@ -68,10 +68,10 @@ public class Principal extends AppCompatActivity {
     private void InicializarComponentes() {
         btnPedidos = findViewById(R.id.btnPedidos);
         //btnPromocoes = findViewById(R.id.btnPromocoes);
-        //btnHistorio = findViewById(R.id.btnHistorico);
+        btnHistorio = findViewById(R.id.btnHistorico);
         //btnMeusDados = findViewById(R.id.btnMeusDados);
-        //btnQuemSomos = findViewById(R.id.btnQuemSomos);
-        //btnVoltarPrincipal = findViewById(R.id.btnVoltarPrincipal);
+        btnQuemSomos = findViewById(R.id.btnQuemSomos);
+        btnVoltarPrincipal = findViewById(R.id.btnVoltarPrincipal);
     }
 
     public void fecharPrincial(View view) {
